@@ -8,13 +8,13 @@ tagline: Thoughts, stories and ideas.
 description:
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://ashbarve.github.io/"
+url: "https://ashbarve.github.io"
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: "/crossing-jekyll"
+baseurl: "/blog"
 
 # The site cover image on the home page
-image: /crossing-jekyll/images/site-image.jpg
+image: /blog/images/site-image.jpg
 
 # The shortname for your Disqus site to enable comments
 disqus_shortname:
@@ -26,26 +26,26 @@ google_analytics_tracking_id:
 # Site navigation
 nav:
   - title: "Home"
-    url:   "/crossing-jekyll/"
+    url:   "/blog/"
   - title: "Github"
-    url:   "https://github.com/barepants/crossing-jekyll"
+    url:   "https://github.com/AshBarve"
 
 
 # The links in the site footer
 footer_links:
   - title: "RSS"
-    url:   "/crossing-jekyll/feed.xml"
+    url:   "/blog/feed.xml"
   - title: "GitHub"
-    url:   "https://github.com/barepants/crossing-jekyll"
+    url:   "https://github.com/AshBarve"
 
 
 # Author information
 authors:
   johndoe:
     name: Ashish Barve
-    website: https://github.com/barepants
+    website: https://github.com/AshBarve
     bio: An awesome bio # Author info at bottom of post only shows if bio exists
-    avatar: /crossing-jekyll/images/avatar.jpg
+    avatar: /blog/images/avatar.jpg
   lewiscarroll:
     name: Ashish Barve
 
