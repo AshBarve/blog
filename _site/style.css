@@ -100,7 +100,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 0.9em; }
 
 button,
 input,
@@ -198,11 +198,12 @@ body {
   text-rendering: optimizeLegibility; }
   @media (min-width: 768px) {
     body {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 30px; } }
 
 a {
   color: #333;
+  font-size: 18px;
   text-decoration: none;
   transition: border-color .1s, color .1s; }
 
@@ -534,6 +535,7 @@ main {
 
 .post-excerpt {
   color: #aaa;
+  font-size: 20px;
   font-style: italic;
   max-height: 56px;
   overflow: hidden;
