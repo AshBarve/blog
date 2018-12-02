@@ -143,11 +143,11 @@
   }
 
   a {
-    border-bottom: 2px solid #ddd;
-    color: #000;
-
+    color: #268bd2;
+    text-decoration: none;
+    
     &:hover {
-      border-bottom-color: #bbb;
+      text-decoration: underline;
     }
   }
 

@@ -20,7 +20,7 @@ body {
   text-rendering: optimizeLegibility;
 
   @include breakpoint {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
   }
 }
@@ -85,12 +85,18 @@ blockquote {
 
 pre,
 code {
-  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+  font-family: Menlo, Monaco, "Courier New", monospace;
 }
 
 code {
   color: #000;
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #ece7e7;
+  border-radius: 3px;
 }
+
 
 pre {
   font-size: 14px;
@@ -100,11 +106,22 @@ pre {
   word-wrap: normal;
 
   @include breakpoint {
-    font-size: 16px;
-    line-height: 25px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding: 8px 15px;
+    background: #333333;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-y: hidden;
   }
+}
+
+pre code {
+  padding: 0;
+  font-size: 95%;
+  color: inherit;
+  background-color: transparent;
+  text-shadow: 0px 0.5px #000000;
 }
 
 img {
