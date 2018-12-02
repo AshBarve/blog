@@ -104,6 +104,7 @@ pre {
   padding: 7px 20px;
   word-break: normal;
   word-wrap: normal;
+  background: #333333;
 
   @include breakpoint {
     padding: 8px 15px;
